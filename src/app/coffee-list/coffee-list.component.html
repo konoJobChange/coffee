@@ -1,6 +1,15 @@
 <h3>コーヒーリスト</h3>
 
-<div *ngFor="let coffee of coffees | async">
-  <span style="color: red;">{{coffee.title}}</span>
-  <span>{{coffee.description}}</span>
+<div class="expansion" *ngFor="let coffee of coffees | async">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{coffee.title}}
+      </mat-panel-title>
+      <!-- <mat-panel-description>
+        {{coffee.title}} detail
+      </mat-panel-description> -->
+    </mat-expansion-panel-header>
+    <p>{{coffee.description}}</p>
+  </mat-expansion-panel>
 </div>

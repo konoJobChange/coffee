@@ -1,0 +1,8 @@
+.expansion {
+  width: 400px;
+  margin-left: 50px;
+}
+
+.expansion + .expansion {
+  margin-top: 20px;
+}
