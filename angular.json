@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "coffee"
+  "defaultProject": "coffee",
+  "cli": {
+    "analytics": "bc6abe58-3b35-4c58-abea-262c2459ea5b"
+  }
 }

@@ -1,0 +1,6 @@
+<h3>コーヒーリスト</h3>
+
+<div *ngFor="let coffee of coffees | async">
+  <span style="color: red;">{{coffee.title}}</span>
+  <span>{{coffee.description}}</span>
+</div>
